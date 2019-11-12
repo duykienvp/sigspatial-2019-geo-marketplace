@@ -1,4 +1,4 @@
-# A Privacy-Preserving, Accountable and Spam-Resilient Geo-Marketplace
+# Searchable Encryption and Vector Commitment Components
 
 This project implements searchable encryption schemes for the paper.
 
