@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="30b7d3f7-12c5-41b9-bf7f-59f5241cbaa2" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../../GasCost.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../GasCost.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../smartcontract/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../smartcontract/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../smartcontract/build/contracts/Migrations.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../smartcontract/build/contracts/Migrations.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../smartcontract/build/contracts/PrivGeoMarkt.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../smartcontract/build/contracts/PrivGeoMarkt.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../smartcontract/build/contracts/PrivGeoMarktCommitmentStorage.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../smartcontract/build/contracts/PrivGeoMarktCommitmentStorage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../smartcontract/build/contracts/PrivGeoMarktSearchableStorage.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../smartcontract/build/contracts/PrivGeoMarktSearchableStorage.json" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/blockchain_geospatial$MainApp.ic" NAME="MainApp Coverage Results" MODIFIED="1546586994817" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.usc.infolab.kien.blockchaingeospatial.app.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="201" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>PrivGeoMarktStorage</find>
+      <find>crede</find>
+      <find>manager</find>
+      <find>curatorPrivGeoMarktStorage</find>
+      <find>PrivGeoMarkt</find>
+      <find>load</find>
+      <find>FUNC_GETOFFERSTATUS</find>
+      <find>currentTimeMillis</find>
+      <find>isValidOfferMapping</find>
+      <find>private static final Logger logger = LoggerFactory.getLogger(PrivGeoMarktApp.class);</find>
+      <find>config</find>
+      <find>enum</find>
+      <find>buyer</find>
+      <find>owner.index</find>
+      <find>refundExpirationStored</find>
+      <find>Success refund receipt</find>
+      <find>getOfferContributors</find>
+      <find>TODO</find>
+      <find>Hex</find>
+      <find>hex</find>
+      <find>test</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>PrivGeoMarkt</replace>
+      <replace>PrivGeoMarktCommitmentStorage</replace>
+      <replace>curatorSearchableStorage</replace>
+      <replace>Contract</replace>
+      <replace>owner</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="dedicatedModuleDir" value="$PROJECT_DIR$" />
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="jacoco" />
+        <option value="travis" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1TVRYnKl9A6V7I2QbWl3K4pUBJ1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557385010864" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="edu.usc.infolab.kien.blockchaingeospatial.utils.Utils" />
+      <recent name="edu.usc.infolab.kien.blockchaingeospatial.crypto.CryptoUtils" />
+      <recent name="edu.usc.infolab.kien.blockchaingeospatial.eth.SwarmHelper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="edu.usc.infolab.kien.blockchaingeospatial.app" />
+      <recent name="edu.usc.infolab.kien.blockchaingeospatial.eth" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/edu/usc/infolab/kien/blockchaingeospatial/contract/generated" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.BuyerApp">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BenchmarkApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.usc.infolab.kien.blockchaingeospatial.app.BenchmarkApp" />
+      <module name="blockchain-geospatial" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.usc.infolab.kien.blockchaingeospatial.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BuyerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.usc.infolab.kien.blockchaingeospatial.app.BuyerApp" />
+      <module name="blockchain-geospatial" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.usc.infolab.kien.blockchaingeospatial.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.usc.infolab.kien.blockchaingeospatial.app.MainApp" />
+      <module name="blockchain-geospatial" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.usc.infolab.kien.blockchaingeospatial.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OwnerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.usc.infolab.kien.blockchaingeospatial.app.OwnerApp" />
+      <module name="blockchain-geospatial" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.usc.infolab.kien.blockchaingeospatial.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RSAKeyPairGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.usc.infolab.kien.blockchaingeospatial.crypto.RSAKeyPairGenerator" />
+      <module name="blockchain-geospatial" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.usc.infolab.kien.blockchaingeospatial.crypto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MainApp" />
+      <item itemvalue="Application.BuyerApp" />
+      <item itemvalue="Application.OwnerApp" />
+      <item itemvalue="Application.RSAKeyPairGenerator" />
+      <item itemvalue="Application.BenchmarkApp" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BuyerApp" />
+        <item itemvalue="Application.MainApp" />
+        <item itemvalue="Application.RSAKeyPairGenerator" />
+        <item itemvalue="Application.BenchmarkApp" />
+        <item itemvalue="Application.OwnerApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="30b7d3f7-12c5-41b9-bf7f-59f5241cbaa2" name="Default" comment="" />
+      <created>1539841510458</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539841510458</updated>
+      <workItem from="1539841511763" duration="5484000" />
+      <workItem from="1539884057347" duration="6818000" />
+      <workItem from="1540232528787" duration="7010000" />
+      <workItem from="1540316527280" duration="2822000" />
+      <workItem from="1540337771384" duration="836000" />
+      <workItem from="1540421597464" duration="2779000" />
+      <workItem from="1540442979860" duration="8447000" />
+      <workItem from="1540484630480" duration="4121000" />
+      <workItem from="1540505996194" duration="6817000" />
+      <workItem from="1540573330566" duration="12907000" />
+      <workItem from="1540784925626" duration="8281000" />
+      <workItem from="1540833809607" duration="6029000" />
+      <workItem from="1540844338794" duration="4282000" />
+      <workItem from="1540922405149" duration="13000" />
+      <workItem from="1541011310762" duration="2737000" />
+      <workItem from="1541030916556" duration="5577000" />
+      <workItem from="1541184566505" duration="3859000" />
+      <workItem from="1541268803063" duration="617000" />
+      <workItem from="1541487221177" duration="16000" />
+      <workItem from="1541873271484" duration="10109000" />
+      <workItem from="1541970695277" duration="67000" />
+      <workItem from="1541970779554" duration="288000" />
+      <workItem from="1541977126407" duration="41000" />
+      <workItem from="1541978348924" duration="83000" />
+      <workItem from="1541978493430" duration="201000" />
+      <workItem from="1541982623653" duration="11255000" />
+      <workItem from="1542045919813" duration="118000" />
+      <workItem from="1542067932217" duration="1063000" />
+      <workItem from="1542145514627" duration="611000" />
+      <workItem from="1542267558974" duration="641000" />
+      <workItem from="1542481543261" duration="17642000" />
+      <workItem from="1542583681590" duration="2800000" />
+      <workItem from="1542655296730" duration="4170000" />
+      <workItem from="1542683342061" duration="6900000" />
+      <workItem from="1542843437577" duration="22000" />
+      <workItem from="1544511434275" duration="12000" />
+      <workItem from="1544704775471" duration="317000" />
+      <workItem from="1545067475960" duration="1340000" />
+      <workItem from="1545153952767" duration="44000" />
+      <workItem from="1546311691579" duration="3420000" />
+      <workItem from="1546409145669" duration="3069000" />
+      <workItem from="1546475187816" duration="663000" />
+      <workItem from="1546583866210" duration="57000" />
+      <workItem from="1546583991855" duration="3146000" />
+      <workItem from="1546887698912" duration="48000" />
+      <workItem from="1557384175725" duration="887000" />
+      <workItem from="1557876743323" duration="4000" />
+      <workItem from="1573543327005" duration="1988000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="PrivGeoMarktTest_testPurchasePolicyAsync - 2018.10.29 at 11h 18m 16s.xml">
+      <configuration name="PrivGeoMarktTest.testPurchasePolicyAsync" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrivGeoMarktTest_testPurchasePolicyAsync - 2018.10.29 at 11h 20m 04s.xml">
+      <configuration name="PrivGeoMarktTest.testPurchasePolicyAsync" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrivGeoMarktTest_testPurchasePolicyAsync - 2018.10.29 at 11h 22m 58s.xml">
+      <configuration name="PrivGeoMarktTest.testPurchasePolicyAsync" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrivGeoMarktTest_testRefundOfferTwice - 2018.10.26 at 18h 16m 49s.xml">
+      <configuration name="PrivGeoMarktTest.testRefundOfferTwice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrivGeoMarktTest_testRefundOfferTwice - 2018.10.29 at 00h 00m 33s.xml">
+      <configuration name="PrivGeoMarktTest.testRefundOfferTwice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrivGeoMarktTest_testRefundOfferTwice - 2018.10.29 at 00h 09m 50s.xml">
+      <configuration name="PrivGeoMarktTest.testRefundOfferTwice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrivGeoMarktTest_testSendKeysBeforeCanceled - 2018.10.26 at 17h 18m 09s.xml">
+      <configuration name="PrivGeoMarktTest.testSendKeysBeforeCanceled" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrivGeoMarktTest_testWithdrawOfferAfterKeysBeingSent - 2018.10.28 at 23h 56m 40s.xml">
+      <configuration name="PrivGeoMarktTest.testWithdrawOfferAfterKeysBeingSent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrivGeoMarktTest_testWithdrawOfferAfterKeysBeingSent - 2018.10.28 at 23h 57m 45s.xml">
+      <configuration name="PrivGeoMarktTest.testWithdrawOfferAfterKeysBeingSent" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrivGeoMarktTest_testWithdrawOfferAfterKeysBeingSent - 2018.10.29 at 00h 05m 03s.xml">
+      <configuration name="PrivGeoMarktTest.testWithdrawOfferAfterKeysBeingSent" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>keyPairGenerator.getPublicKey().getEncoded()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>commitment.length() * 4</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>commitment.length() * 8</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>commitment.length()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>dataAddress.toCharArray()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Hex.decodeHex(dataAddress.toCharArray())</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>dataAddress.length()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>blockchain-geospatial</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.fasterxml.jackson.core:jackson-annotations:2.8.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
