@@ -6,7 +6,6 @@ RUN apt-get -yqq install software-properties-common gcc autoconf libssl1.0-dev l
 
 # Upgrade pip and setup tools
 RUN pip3 install pip --upgrade
-RUN hash -d pip3
 RUN pip3 install setuptools --upgrade
 
 # Install PBC
@@ -21,9 +20,6 @@ WORKDIR /searchable-encryption/
 # Install python dependencies
 RUN pip3 install cython
 RUN pip3 install -r requirements.txt
-
-# Create logs files
-RUN mkdir logs
 
 # Test
 RUN pip3 install pytest
