@@ -1,0 +1,110 @@
+project_dir: ./  # the path to the project directory
+data_files:
+  data_dir: datasets/  # inside `project_dir`: the data directory
+  datasets_dir: gowalla_LA/ # inside `data_dir`: used to get checkins and documents
+  checkins_dir: checkins/  # inside `datasets_dir`: used to get checkins files
+  documents_dir: documents/ # inside `datasets_dir`: used to get documents files
+  data_file_prefix: gowalla_LA_  # prefix for data files
+
+index:
+  index_dir: index/  # inside `project_dir`
+  datasets_dir: gowalla_LA/ # inside `index_dir`
+  encoding: BRC # location encoding: BRC or HIERARCHICAL. In the paper, we used BRC
+
+benchmark:
+  # Whether we should shift from original grid. Because when we select queries for HVE, the queries are aligned.
+  # We use this shift to mimic query decomposition
+  # and also to make sure that the original queries and decomposed queries are pointing to the same areas.
+  shifted: false
+
+  # query directory
+  queries_dir: queries/hve/
+  # prefix for query files inside `queries_dir`
+  queries_file_prefix: queries
+  # prefix for query plotting files inside `queries_dir`. These files can be used later for gnuplot to plot check-ins
+  queries_plot_file_prefix: plot_queries_rectangle
+
+
+  out_dir: benchmark/  # benchmarking output dir
+  out_file: benchmark_gowalla_LA_hxt_gen_index_seq_brc.csv  # CSV file for benchmark output.
+
+  paralleled: false  # whether we should use parallelism or not
+  paralleled_num_process: 4  # number of process when using parallelism
+
+  save_index: true  # whether we should save the index or not
+
+  # domain granularities we use
+  widths:
+    - 1024
+    - 4096
+    - 16384
+    - 65536
+
+  # number of check-ins
+  num_checkins:
+    - 10000
+    - 20000
+    - 50000
+    - 100000
+
+  # levels in the tree that we used for the query
+  query_levels:
+    - 7  # 380m
+    - 6  # 2 x 380m
+    - 5  # 4 x 380m
+
+  # values of h_max
+  index_limit_levels:
+    - 7  # 380m
+    - 6  # 2 x 380m
+    - 5  # 4 x 380m
+    - 0  # entire space
+
+  # security key sizes for HVE
+  hve_key_sizes:
+    - 768
+    - 1024
+    - 1536
+    - 2048
+    - 4096
+
+  # the start and end items we want to use for HVE (just because HVE is too slow to run for thousands of items)
+  hve_item_start: 0
+  hve_item_end: 10
+
+  # whether we should concatnate x, y into 1 number
+  hve_concatenate: true
+
+  # config for vector commitments
+  vector_commitment:
+    key_sizes:
+      - 768
+      - 1024
+      - 1536
+      - 2048
+    message_elem_bit_len: 256
+    vector_lens:
+      - 5
+      - 10
+      - 15
+      - 20
+
+crypto:
+  password: test_password  # password for generating keys
+
+  hxt:
+    using_preorder_id: false  # should we used preorder-id as id instead of combining 0,1 labels
+
+    bloom_filter_false_positive_rate: 1e-6  # bloomfilter false positive rate
+
+    key_file: hxt.key  # key file for hxt
+    oxt_edb_file: oxt_edb.index  # encrypted database file
+    shve_file: shve.index  # encrypted SHVE file
+    bloomfilter_file: hxt.bf # bloomfilter file
+
+  hve:
+    pk_file: pk.key  # public key file
+    sk_file: sk.key  # secret key file
+    cipher_file: cipher.hve  # cipher text
+    token_file: token.hve  # token
+

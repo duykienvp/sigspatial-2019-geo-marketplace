@@ -1,0 +1,7 @@
+PyYAML
+charm-crypto
+cryptography
+cython
+pybloomfiltermmap3
+bitarray
+mmh3
