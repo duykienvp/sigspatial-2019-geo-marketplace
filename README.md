@@ -1,5 +1,5 @@
-# sigspatial-2019-geo-marketplace
-Code for SIGSPATIAL 2019 paper: a privacy-preserving, accountable and spam-resilient geo-marketplace.
+# A Privacy-Preserving, Accountable and Spam-Resilient Geo-Marketplace
+Code for SIGSPATIAL 2019 paper: [A Privacy-Preserving, Accountable and Spam-Resilient Geo-Marketplace].
 
 Authors:
  * Kien Nguyen, University of Southern California
@@ -16,3 +16,5 @@ This includes 3 projects:
 
 [searchable-encryption]: /searchable-encryption
 [smartcontract]: /smartcontract
+[blockchain-geospatial]: /blockchain-geospatial
+[A Privacy-Preserving, Accountable and Spam-Resilient Geo-Marketplace]: https://arxiv.org/abs/1909.00299
