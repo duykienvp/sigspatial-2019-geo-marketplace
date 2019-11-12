@@ -8,7 +8,7 @@ import searchableencryption.toolbox.pairinggroup as pairinggroup  # noqa: W391, 
 from searchableencryption.toolbox.sample import pairingcurves  # noqa: W391, F401
 from searchableencryption.toolbox.pairinggroup import GT, parse_params_from_string  # noqa: W391, F401
 from searchableencryption.hve.hveutil import WILDCARD  # noqa: W391, F401
-from searchableencryption.toolbox import binexprminimizer, datasethelper  # noqa: W391, F401
+from searchableencryption.toolbox import datasethelper  # noqa: W391, F401
 from searchableencryption.hve import hierarchicalencoding, grayencoding, hveutil  # noqa: W391, F401
 from searchableencryption.hve import hve  # noqa: W391, F401
 from searchableencryption.sse import oxt, hxt  # noqa: W391, F401

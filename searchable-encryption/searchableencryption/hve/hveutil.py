@@ -3,7 +3,6 @@
 import logging
 
 from searchableencryption.hve import hierarchicalencoding, grayencoding
-from searchableencryption.toolbox import binexprminimizer
 from searchableencryption.rangequery.rangeutil import LocationEncoding
 
 WILDCARD = '*'
@@ -81,101 +80,6 @@ def convert_to_documents(
         converted_db[item_id] = encoded_loc
 
     return converted_db
-
-
-def perform_bin_expr_min(cell_bins):
-    """
-    Perform binary expression minimization.
-    This method simply calls another method in binary expression minimization module.
-    However, this exists so that other HVE related modules can focus on this
-    :param cell_bins: encoded cells as binary
-    :return: minimized tokens
-    """
-    return binexprminimizer.perform_bin_expr_min(cell_bins, wildcard=WILDCARD)
-
-
-def encode_cell_queries(cell_queries, d: int, location_encoding: LocationEncoding):
-    """
-    Encoding cell queries according to the location encoding
-    :param cell_queries:
-    :param d:
-    :param location_encoding:
-    :return:
-    """
-    if location_encoding == LocationEncoding.HIERARCHICAL:
-        cell_id_encode_func = hierarchicalencoding.encode_cell_id
-    elif location_encoding == LocationEncoding.GRAY:
-        cell_id_encode_func = grayencoding.encode_cell_id
-    else:
-        raise TypeError('Unknown location encoding')
-
-    # logger.debug('encoding cell bins')
-    cell_bins = list()
-    cell_bins.extend([cell_id_encode_func(d, cell[0], cell[1]) for cell in cell_queries])
-
-    # logger.debug('encoding cell bins DONE')
-
-    return cell_bins
-
-
-def convert_range_query_to_predicate_queries(
-        rectangle_query: tuple,
-        d: int,
-        location_encoding: LocationEncoding) -> list:
-    """
-    Convert range query in rectangle to a list of queries in keywords
-    :param rectangle_query: tuple of (x_top_left, y_top_left, x_len, y_len)
-    :param d: dimension
-    :param location_encoding: type of encoding, HIERARCHICAL_ENCODING or GRAY_ENCODING
-    :return: list of queries in keywords
-    """
-    x_top_left, y_top_left, x_len, y_len = rectangle_query
-
-    cells = [[x_top_left + x, y_top_left + y]for x in range(x_len) for y in range(y_len)]
-
-    cell_bins = encode_cell_queries(cells, d, location_encoding)
-
-    return perform_bin_expr_min(cell_bins)
-
-
-def convert_multiple_range_queries_to_predicate_queries(
-        rectangle_queries: list,
-        d: int,
-        location_encoding: LocationEncoding) -> list:
-    """
-    Convert a range as multiple rectangle range queries to a list of queries in keywords
-    :param rectangle_queries: list of tuple of (x_top_left, y_top_left, x_len, y_len)
-    :param d: dimension
-    :param location_encoding: type of encoding, HIERARCHICAL_ENCODING or GRAY_ENCODING
-    :return: list of queries in keywords
-    """
-    cells = list()
-
-    for rectangle_query in rectangle_queries:
-
-        x_top_left, y_top_left, x_len, y_len = rectangle_query
-
-        cells.extend([[x_top_left + x, y_top_left + y] for x in range(x_len) for y in range(y_len)])
-
-    cell_bins = encode_cell_queries(cells, d, location_encoding)
-
-    return perform_bin_expr_min(cell_bins)
-
-
-def convert_multiple_cell_queries_to_predicate_queries(
-        cell_queries: list,
-        d: int,
-        location_encoding: LocationEncoding) -> list:
-    """
-    Convert cell queries into a list of queries in keywords
-    :param cell_queries: list of query cells as (x, y)
-    :param d: dimension
-    :param location_encoding: type of encoding, HIERARCHICAL_ENCODING or GRAY_ENCODING
-    :return: list of queries in keywords
-    """
-    cell_bins = encode_cell_queries(cell_queries, d, location_encoding)
-
-    return perform_bin_expr_min(cell_bins)
 
 
 def read_rectangle_queries(file_path: str) -> list:

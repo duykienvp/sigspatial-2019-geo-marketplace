@@ -112,14 +112,6 @@ if __name__ == '__main__':
             test.test_hve_simple()
             test.test_hve_multiple()
 
-        if args.scheme == SCHEME_HVE_HE:
-            import tests.test_hvehe as test
-            test.test_hve_he_simple()
-
-        if args.scheme == SCHEME_HVE_GE:
-            import tests.test_hvege as test
-            test.test_hve_ge_simple()
-
         if args.scheme == SCHEME_HIERARCHICAL:
             import tests.test_hvehe as test
             test.test_hierarchical_encoding_decomposition()
