@@ -129,6 +129,14 @@ we already did this step and got 4 check-in files in [checkins].
   
   This step writes to benchmark output file.
   
+- Benchmark Vector commitment scheme:
+
+    ```
+    python3 taskexecutor.py --task benchmark --scheme vc
+    ```
+  
+  This step writes to benchmark output file.
+  
 ## Some issues of Charm crypto library ##
 - Open `FILE` without closing. Might cause our segment fault. See `init_pbc_param` function in `pairingmodule.c` (line 328)
 - `pairing` hash error. Example
