@@ -1,0 +1,28 @@
+{
+  "name": "location-data-collection",
+  "version": "1.0.0",
+  "description": "Privacy preserving and accountable location data collection with blockchain",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/USC-InfoLab/kien-blockchain-location.git"
+  },
+  "author": "Kien Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/USC-InfoLab/kien-blockchain-location/issues"
+  },
+  "homepage": "https://github.com/USC-InfoLab/kien-blockchain-location#readme",
+  "devDependencies": {
+    "babel-register": "^6.26.0"
+  },
+  "dependencies": {
+    "web3": "^1.0.0-beta.36"
+  }
+}

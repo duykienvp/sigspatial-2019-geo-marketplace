@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="96a2c0fb-7ccb-4de1-9e53-a561aa7d55ca" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../GasCost.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../GasCost.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-java/blockchain-geospatial/src/main/java/edu/usc/infolab/kien/blockchaingeospatial/app/BuyerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client-java/blockchain-geospatial/src/main/java/edu/usc/infolab/kien/blockchaingeospatial/app/BuyerApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-java/blockchain-geospatial/src/main/java/edu/usc/infolab/kien/blockchaingeospatial/app/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client-java/blockchain-geospatial/src/main/java/edu/usc/infolab/kien/blockchaingeospatial/app/MainApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-java/blockchain-geospatial/src/main/java/edu/usc/infolab/kien/blockchaingeospatial/contract/generated/PrivGeoMarkt.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client-java/blockchain-geospatial/src/main/java/edu/usc/infolab/kien/blockchaingeospatial/contract/generated/PrivGeoMarkt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-java/blockchain-geospatial/src/main/java/edu/usc/infolab/kien/blockchaingeospatial/contract/generated/PrivGeoMarktCommitmentStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client-java/blockchain-geospatial/src/main/java/edu/usc/infolab/kien/blockchaingeospatial/contract/generated/PrivGeoMarktCommitmentStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-java/blockchain-geospatial/src/main/java/edu/usc/infolab/kien/blockchaingeospatial/contract/generated/PrivGeoMarktSearchableStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../client-java/blockchain-geospatial/src/main/java/edu/usc/infolab/kien/blockchaingeospatial/contract/generated/PrivGeoMarktSearchableStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-java/blockchain-geospatial/src/main/resources/addresses.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../client-java/blockchain-geospatial/src/main/resources/addresses.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../client-java/blockchain-geospatial/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../client-java/blockchain-geospatial/src/main/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/contracts/Migrations.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/contracts/Migrations.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/contracts/PrivGeoMarkt.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/contracts/PrivGeoMarkt.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/contracts/PrivGeoMarktCommitmentStorage.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/contracts/PrivGeoMarktCommitmentStorage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/contracts/PrivGeoMarktSearchableStorage.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/contracts/PrivGeoMarktSearchableStorage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/PrivGeoMarkt.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/PrivGeoMarkt.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts/PrivGeoMarktSearchableStorage.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/PrivGeoMarktSearchableStorage.sol" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1TVQOdn8TmsufQ3pvFMkW7GJfR9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557385010846" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="96a2c0fb-7ccb-4de1-9e53-a561aa7d55ca" name="Default Changelist" comment="" />
+      <created>1542482131816</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542482131816</updated>
+      <workItem from="1542482133069" duration="356000" />
+      <workItem from="1542661715242" duration="1196000" />
+      <workItem from="1542683342774" duration="1424000" />
+      <workItem from="1542843437862" duration="22000" />
+      <workItem from="1546313335500" duration="995000" />
+      <workItem from="1546407612278" duration="3450000" />
+      <workItem from="1546586165011" duration="1279000" />
+      <workItem from="1546887700274" duration="46000" />
+      <workItem from="1557383020233" duration="1422000" />
+      <workItem from="1557876740887" duration="9000" />
+      <workItem from="1573542752744" duration="216000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
