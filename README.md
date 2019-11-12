@@ -12,9 +12,11 @@ This includes 3 projects:
 - [searchable-encryption]: searchable encryption and vector commitment code
 - [smartcontract]: Ethereum smart contract code
 - [blockchain-geospatial]: Java client to interact with [smartcontract]
+- [scripts]: supporting scripts
 
 
 [searchable-encryption]: /searchable-encryption
 [smartcontract]: /smartcontract
 [blockchain-geospatial]: /blockchain-geospatial
+[scripts]: /scripts
 [A Privacy-Preserving, Accountable and Spam-Resilient Geo-Marketplace]: https://arxiv.org/abs/1909.00299
